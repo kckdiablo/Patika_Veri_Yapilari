@@ -1,0 +1,34 @@
+### Merge Sort
+
+**Verilen dizi:** [16, 21, 11, 8, 12, 22]
+
+**Aşamalar:**
+
+1. **Başlangıç:**
+   - [16, 21, 11, 8, 12, 22]
+
+2. **Bölme:**
+   - [16, 21, 11] ve [8, 12, 22]
+
+3. **Bölme - İlk Yarı:**
+   - [16] ve [21, 11]
+   - [21] ve [11]
+
+4. **Bölme - İkinci Yarı:**
+   - [8] ve [12, 22]
+   - [12] ve [22]
+
+5. **Birleştirme - İlk Yarı:**
+   - [16] ve [21] ve [11] -> [11, 16, 21]
+
+6. **Birleştirme - İkinci Yarı:**
+   - [8] ve [12] ve [22] -> [8, 12, 22]
+
+7. **Son Birleştirme:**
+   - [11, 16, 21] ve [8, 12, 22] -> [8, 11, 12, 16, 21, 22]
+
+**Big-O Gösterimi:**
+
+- **En Kötü Durum (Worst Case):** O(n log n)
+- **Ortalama Durum (Average Case):** O(n log n)
+- **En İyi Durum (Best Case):** O(n log n)
